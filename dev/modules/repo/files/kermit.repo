@@ -1,0 +1,11 @@
+[kermit-packages]
+name=kermitpackages
+baseurl=http://192.168.1.111/yum/kermit/kermit_packages_x64
+enabled=1
+gpgcheck=0
+
+[kermi-source]
+name=kermitsource
+baseurl=http://192.168.1.111/yum/kermit/kermit_deps_x64
+enabled=1
+gpgcheck=0

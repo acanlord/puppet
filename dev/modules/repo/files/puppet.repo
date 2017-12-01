@@ -1,0 +1,11 @@
+[puppet]
+name=puppet
+baseurl=http://192.168.1.111/yum/puppet/puppet_el6_products_x64/
+enabled=1
+gpgcheck=0
+
+[puppet-source]
+name=puppetdeps
+baseurl=http://192.168.1.111/yum/puppet/puppet_el6_deps_x64/
+enabled=1
+gpgcheck=0

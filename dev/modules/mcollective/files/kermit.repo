@@ -1,0 +1,11 @@
+[kermit_repo]
+name= kermit-base
+baseurl=http://omsprod0004.norcaltechs.com/yum/kermit/kermit_deps_x64/
+gpgcheck=0
+enabled=1
+
+[kermit_deps]
+name= kermit-deps
+baseurl=http://omsprod0004.norcaltechs.com/yum/kermit/kermit_packages_x64/
+gpgcheck=0
+enabled=1
